@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas PPW Nomor 2</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <script>
+        var pertanyaan = confirm("Apakah anda praktikan PPW1?")
+
+        if (pertanyaan){
+            var name = prompt("Masukkan nama Anda", " ");
+            var nim = prompt("Masukkan NIM Anda", " ");
+            var angkatan = prompt("Masukkan tahun angkatan Anda", " ");
+
+            document.write("<table class='table'> <thead> \
+                    <tr> \
+                        <th scope='col'>Nama</th> \
+                        <th scope='col'>NIM</th> \
+                        <th scope='col'>Angkatan</th> \
+                    </tr> \
+                </thead> \
+                        <tbody> \
+                        <tr> \
+                                <td> "+name+ "</td> \
+                                <td> "+nim+ "</td> \
+                                <td>" +angkatan+ "</td> \
+                        </tr> \
+                        </tbody> \
+            </table>")
+        } else {
+            document.write("Anda bukan praktikan PPW1, anda tidak boleh masuk!")
+        }
+    </script>
+</body>
+</html>

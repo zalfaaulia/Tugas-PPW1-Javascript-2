@@ -1,0 +1,25 @@
+button{
+    font-size: 25px;
+    padding: 15px 30px;
+}
+
+.number{
+   background-color: grey;
+   border: none; 
+}
+
+.operator{
+    background-color: black;
+    color: white;
+}
+
+.result{
+    background-color: tomato;
+    color: white;
+    border: none;
+}
+
+.textbox{
+    font-size: 25px;
+}
+
